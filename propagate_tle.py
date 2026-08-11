@@ -397,7 +397,7 @@ def plot_ground_tracks(points_by_sat, world_map_file=None, png_out=None):
     ax.set_title("Ground Tracks")
     ax.set_xlim([-180, 180])
     ax.set_ylim([-90, 90])
-    ax.legend()
+    ax.legend(markerscale=5.0)
 
     if png_out:
         fig.savefig(png_out, dpi=200, bbox_inches="tight")
