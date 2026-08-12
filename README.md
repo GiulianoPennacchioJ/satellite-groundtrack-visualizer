@@ -104,3 +104,11 @@ The script exports two 3D geospatial files directly into OUT/ for inspection in 
 orbits_eci.kml: Displays orbital planes fixed in Space-Inertial space (ECI frame).
 
 orbits_kepler.kml: Renders extruded trajectories and satellite altitude shells relative to the rotating Earth surface (ECEF frame).
+
+---
+
+## Acknowledgments & Credits
+
+This project was developed as a practical implementation and extension of the material covered during the **Space Days** hosted by [GNSS Academy](https://gnssacademy.com/). 
+
+Special thanks to **Alberto T. Riofrio** (Director of the JSNP Master) and the **GNSS Academy** team for their guidance, foundational insights, and technical framework that made this work possible.
